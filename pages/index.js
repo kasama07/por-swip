@@ -142,6 +142,9 @@ export default function Home() {
         <hr/> 
         <Link href="/pages/test2"> <h1>POST TEST</h1></Link>
     </div>
+
+    
+
    </div>
   )
 }

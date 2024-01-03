@@ -58,12 +58,13 @@ export default function Navbar(){
                                 <a href="#">HELP</a>
                             </div>
                         </div>
-                    <Link href="/pages/test2" className={styles.menulist}><span >add Room</span></Link>
-                    <Link href="/pages/RoomType" className={styles.menulist}><span >Roomtype</span></Link>
+                    <Link href="/test2" className={styles.menulist}><span >add Room</span></Link>
+                    <Link href="/RoomType" className={styles.menulist}><span >Roomtype</span></Link>
                     <Link href="/" className={styles.menulist}><span>Announcment</span></Link>
                     <Link href="/" className={styles.menulist}><span>Service</span></Link>
                     <Link href="/" className={styles.menulist}><span>Promotion</span></Link>
                     <Link href="/" className={styles.menulist}><span>About Us</span></Link>
+                    
                     
                 </div>
 

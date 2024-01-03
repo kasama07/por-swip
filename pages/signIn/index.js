@@ -52,7 +52,7 @@ export default function SigIn() {
     if (user_value == 1 && pass_value == 1){
       alert("Login Success!!");
       try{
-          router.push("/");
+          router.push("/Swip");
         var getID = {UserID:user_login,State:"login"}
         localStorage.setItem("Userlist",JSON.stringify(getID));
       }catch(e){
@@ -98,5 +98,5 @@ export default function SigIn() {
         </form>
       </div>
     </div>
-  );
+  )
 }

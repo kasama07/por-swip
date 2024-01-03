@@ -1,0 +1,16 @@
+/*------ Nav ------*/
+.regis {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+.navbutton {
+    color: rgb(254,48,114);
+    background-color: rgb(255,255,255);
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
